@@ -18,7 +18,7 @@ import axios from 'axios';
 
 // const API_URL = 'http://localhost:5000/api/ocr';
 
-const API_URL = 'https://aadhaar-ocr-system-backend-roow.onrender.com'
+const API_URL = 'https://aadhaar-ocr-system-backend-roow.onrender.com/api/ocr'
 
 export const uploadAadhaarImages = async (formData: FormData) => {
   try {
